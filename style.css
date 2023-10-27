@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(90deg,white 0%,blueviolet 28%,purple 100%);
+   /* background-image: linear-gradient(90deg,white,purple);
+   background-image: linear-gradient(90deg,white 0%,white 38%,rgb(18, 107, 190) 38%,rgb(18, 107, 190) 100%);*/
+}
+.hero nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    color: blue;
+    justify-content: space-between;
+}
+span{
+    color: blueviolet;
+}
+.hero nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+.hero nav ul li a{
+    text-decoration: none;
+    color:azure;
+    font-weight: bold;
+}
+.hero nav ul li a:hover{
+    color: blueviolet;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left:10%;
+    transform: translateY(-50%);
+}
+.content img{
+    width: 350px;
+    height: 350px;
+    border:10px solid white;
+    border-radius: 50%;
+}
+.name{
+    position: absolute;
+    bottom: 44%;
+    left: 50%;
+    color: azure;
+}
+.name h2{
+    color: rgb(22, 219, 177);
+    font-size: 54px;
+    text-transform: capitalize;
+}
+.name h3{
+    color: azure;
+}
+.name p{
+    line-height: 28px;
+}
+.btn{
+    border-color: purple;
+    text-decoration: none;
+    padding: 5px 11px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgb(212, 73, 212);
+}
+.btn a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color:lightblue;
+}
+.about img{
+   height: 450px;
+    width: 350px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.about_list {
+    width:550px;
+}
+.about_list h2{
+    color:teal;
+    font-size: 75px;
+    margin-bottom:20px;
+    text-transform: capitalize;
+}
+.about_list h4{
+    color:purple;
+    font-size: 21px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+h4 span{
+    color: rgb(160,16,76);
+}
+.about_list p{
+    color:chocolate;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+.skill{
+    background: lightblue;
+    width: 100%;
+    padding: 56px 0px;
+}
+.title h2{
+    color:indigo;
+    font-size: 75px;
+    width: 1130px;
+    margin: 5px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 256px;
+    width: 230px;
+    padding: 20px 20px;
+    background: linear-gradient(90deg,teal ,blueviolet ,purple );
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.card i{
+    font-size: 29px;
+    display: block;
+    text-align: center;
+    margin: 6px 0px;
+    color: indigo;
+}
+.card h5{
+    color:deepskyblue;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.parg{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    margin-bottom: 25px;
+}
+.contact{
+    width: 100%;
+    padding:100px 10px;
+    padding-right: 63px;
+    background-color:lightblue;
+}
+.contact .idea{
+display: flex;
+justify-content: space-around;
+}
+.idea img{
+    width: 584px;
+    height: 451px;
+}
+.idea h1{
+   
+ font-size: 75px;  
+ right: 10%;
+ margin-bottom: 45px; 
+ color: blueviolet;
+}
+.idea h1 span{
+    color:blueviolet;
+}
+.idea p{
+    font-size: 21px;
+    line-height: 34px;
+}
+.idea p span{
+    font-weight: bold;
+    color:purple ;
+}

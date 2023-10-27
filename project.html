@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Profile</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+
+
+
+<body>
+        <div class="hero">
+            <nav>
+                <h2>Port<span>folio</span></h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#k1">About</a></li>
+                    <li><a href="#k2">Skill</a></li>
+                    <li><a href="#k3">Contact</a></li>
+                </ul>
+                <button class="btn"><a href="Resumegdhanushya1.pdf">Download CV</a></button>
+            </nav>
+            <div class="content">
+                <img src="lenovo-desktop.jpg" width="350px"alt="image">
+            </div>
+            <div class="name"> 36097333
+                <h3>Welcome, My name is</h3>
+                <h2>G Dhanushya</h2>
+                <p>This is my personal portfolio<br>To show my knowledge in web designing</p>
+            </div>
+        </div>
+        <section class="about" id="k1">
+            <div class="main">
+                <img src="images (64).jpeg" alt="image">
+                <div class="about_list">
+                    <h2>About Me</h2>
+                    <h4>Web developer <span>and designer</span></h4>
+                    <p>
+                        I am a web designer and developer, I can provide a best form of website,It should be a perfect design which was more and more interactive with the clients.
+                        I always to be honest and a sincere person in my job.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div id="k2" class="skill">
+            <div class="title">
+                <h2>My Skill</h2>
+            </div>
+            <div class="box">
+                <div class="keys"><img style="border-radius: 20px;"  src="images (62).jpeg" width="656px" alt="alt"> </div>
+                <ul><li style="list-style: none;">
+                <div class="card">
+                    <i class="fa-solid fa-bars"></i>
+                    <h5>Programming language</h5>
+                    <div class="parg">
+                        <p>Programming language is an important skill to learn, It ensure that people access more creative and knowledge in computer or technologies</p>
+                    <p style="text-align: center;">
+                   
+                </p>
+                </div>
+                </div>
+           
+            
+                <div class="card">
+                    <i class="fa-solid fa-table"></i>
+                    <h5>Excel</h5>
+                    <div class="parg">
+                        <p>Excel plays an importantin different fields such as schools,college,organisation and so on, It helps to store the data in meaningful .</p>
+                    <p style="text-align: center;">
+                      
+                </p>
+                
+                </div>
+            </div>
+        </li>
+        </ul>
+        <ul><li style="list-style: none;"></li>
+                <div class="card">
+                    <i class="fa-solid fa-database"></i>
+                    <h5>SQL database management</h5>
+                    <div class="parg">
+                        <p>Structured query language (SQL) is Programming language for storing and modifing the  relational database, It describe the relation between the data values. </p>
+                    <p style="text-align: center;">    
+                </p>
+                
+                </div>
+            </div>
+    
+                <div class="card">
+                    <i class="fa-solid fa-desktop"></i>
+                    <h5>web development</h5>
+                    <div class="parg">
+                        <p>Website are development are done for two main reasons there are make the website more advance and the way of easy to use.</p>
+                    <p style="text-align: center;">
+                       
+                </p>
+                </div>
+                
+            </div>
+        </li>
+    </ul>
+            </div>
+        </div>
+        <section id="k3" class="contact">
+            <div class="idea">
+                <img src="images (65).jpeg" alt="">
+                <div class="form">
+                    <h1>Contact <span>Us</span></h1>
+                    <p><span>Connect with us via </span><br>gmail: dhanushya.gsds4@gmail.com <br>Mobile number:9786082529</p>
+                </div>
+            </div>
+        </section>
+        <script>
+        
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    if(targetElement){
+                        window.scrollTo({
+                            top:targetElement.offsetTop,
+                            behavior:'smooth'
+                        });
+                    }
+                });
+            }); 
+            </script>
+       
+    </body>
+</html>
